@@ -8,12 +8,4 @@ const dbConnection = mysql2.createPool({
 	connectionLimit: 10,
 });
 
-// dbConnection.execute("select 'test' ", (err, res) => {
-//   if (err) {
-//     console.log(err.message);
-//   } else {
-//     console.log(res);
-//   }
-// });
-
 module.exports = dbConnection.promise();
