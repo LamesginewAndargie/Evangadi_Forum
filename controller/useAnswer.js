@@ -49,14 +49,6 @@ const allAnswers = async (req, res) => {
 	}
 };
 
-// .....
-
-// get request function to get answers
-
-// ....
-
-// make sure to do both functions
-
 // delete answers
 
 const deleteAnwer = async (req, res) => {
