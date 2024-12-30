@@ -7,8 +7,6 @@ const { StatusCodes } = require("http-status-codes");
 async function postQuestion(req, res) {
 	const { title, description } = req.body;
 	const { id, username } = req.user;
-	// console.log(id);
-	// console.log(username);
 
 	if (!title || !description) {
 		return res
